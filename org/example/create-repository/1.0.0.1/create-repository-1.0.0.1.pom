@@ -37,13 +37,6 @@
         </repository>
     </distributionManagement>
 
-<!--    <distributionManagement>-->
-<!--        <repository>-->
-<!--            <id>internal</id>-->
-<!--            <url>https://github.com/SomnambulaDreams/repka-art</url>-->
-<!--        </repository>-->
-<!--    </distributionManagement>-->
-
     <build>
 <!--        <pluginManagement>-->
             <plugins>
@@ -86,7 +79,6 @@
                         <repositoryOwner>SomnambulaDreams</repositoryOwner>
                         <repositoryName>repka-art</repositoryName>
                         <message>Deploy artifacts for ${project.version}</message>
-<!--                        <oauth2Token>f66200dc3cc132be0d29193e055e8dc9eb8095b1</oauth2Token>-->
                     </configuration>
                     <executions>
                         <execution>
